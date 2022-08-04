@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.introduction {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.introduction h2 {
+  font-size: 4rem;
+}
+.introduction button {
+  border: none;
+  background: #070007;
+  padding: 1rem 3rem;
+  cursor: pointer;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+.introduction button:hover {
+  background: lightcoral;
+}/*# sourceMappingURL=style.css.map */
